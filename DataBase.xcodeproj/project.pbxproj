@@ -14,6 +14,9 @@
 		F8AD87142869C39600990C95 /* DataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8AD87122869C39600990C95 /* DataBase.xcdatamodeld */; };
 		F8AD87162869C39900990C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AD87152869C39900990C95 /* Assets.xcassets */; };
 		F8AD87192869C39A00990C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AD87172869C39900990C95 /* LaunchScreen.storyboard */; };
+		F8AD87232869C9F900990C95 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD87212869C9F900990C95 /* Person+CoreDataClass.swift */; };
+		F8AD87242869C9F900990C95 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD87222869C9F900990C95 /* Person+CoreDataProperties.swift */; };
+		F8AD87282869F7FF00990C95 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD87272869F7FF00990C95 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		F8AD87152869C39900990C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8AD87182869C39900990C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8AD871A2869C39A00990C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8AD87212869C9F900990C95 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F8AD87222869C9F900990C95 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F8AD87272869F7FF00990C95 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 		F8AD86FD2869C39600990C95 = {
 			isa = PBXGroup;
 			children = (
+				F8AD87212869C9F900990C95 /* Person+CoreDataClass.swift */,
+				F8AD87222869C9F900990C95 /* Person+CoreDataProperties.swift */,
 				F8AD87082869C39600990C95 /* DataBase */,
 				F8AD87072869C39600990C95 /* Products */,
 			);
@@ -62,6 +70,7 @@
 				F8AD870B2869C39600990C95 /* SceneDelegate.swift */,
 				F8AD870D2869C39600990C95 /* ViewController.swift */,
 				F8AD870F2869C39600990C95 /* Main.storyboard */,
+				F8AD87272869F7FF00990C95 /* ImageViewController.swift */,
 				F8AD87152869C39900990C95 /* Assets.xcassets */,
 				F8AD87172869C39900990C95 /* LaunchScreen.storyboard */,
 				F8AD871A2869C39A00990C95 /* Info.plist */,
@@ -142,6 +151,9 @@
 			files = (
 				F8AD870E2869C39600990C95 /* ViewController.swift in Sources */,
 				F8AD870A2869C39600990C95 /* AppDelegate.swift in Sources */,
+				F8AD87242869C9F900990C95 /* Person+CoreDataProperties.swift in Sources */,
+				F8AD87282869F7FF00990C95 /* ImageViewController.swift in Sources */,
+				F8AD87232869C9F900990C95 /* Person+CoreDataClass.swift in Sources */,
 				F8AD87142869C39600990C95 /* DataBase.xcdatamodeld in Sources */,
 				F8AD870C2869C39600990C95 /* SceneDelegate.swift in Sources */,
 			);
